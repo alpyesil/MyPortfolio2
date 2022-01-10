@@ -11,7 +11,7 @@ input.addEventListener('change',function(){
    if(this.checked)
     {
     navbar.classList.add('texttt');
-    container.style.background = "#fff";
+    container.style.background = "#6610f2";
 
     } else {
     container.style.background = "#1e2a3a";

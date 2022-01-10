@@ -1,22 +1,70 @@
 
   .container-fluid {
       background-color: #1e2a3a;
-      height: 100vh;
+      height: auto;
   }
   
   .container-fluid .row .col-2 .navbar {
       height: 100vh;
       display: flex;
+      background-color: #1e2a3a;
       align-items: flex-start;
+      
   }
+
   
   .content {
       background-color: #151e29 !important;
       display: flex;
       flex-direction: column;
-      height: 100vh;
+      height: auto;
       
   }
+
+  .content2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .mebox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .aebox {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .item-icon {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 30px;
+    
+  }
+
+  .item-icon i {
+    font-size: 2.5rem;
+    color: #54B689;
+    
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+  }
+
+  .content-container h2 {
+    border-left: 5px solid #54B689;
+    padding-left: 12px;
+  }
+
   .columnTop{
     display: flex;
     flex-direction: row;
@@ -102,6 +150,17 @@
   .col-sm-6 img {
       max-width: 400px;
   }
+
+  .mainnav {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .navs {
+    
+    min-width: 400px;
+  }
   
   .mainnav img {
       max-width: 160px;
@@ -179,6 +238,22 @@
     border-radius: 5%;
     font-weight: bold;
     margin-left: 75px;
+  }
+
+  .services {
+    background-color: #54B689;
+    padding: 4px 8px;
+    border-radius: 5%;
+    font-weight: bold;
+    margin-left: 75px;
+    color: white;
+    text-decoration: none;
+    
+  }
+
+  
+  .services i {
+    color: white;
   }
   
   .aboutme ul li i {
